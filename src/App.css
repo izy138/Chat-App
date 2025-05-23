@@ -27,7 +27,7 @@ input {
 }
 
 /* navbar */
-.NavBar {
+.navbar {
   padding: 10px 30px;
   display: flex;
   align-items: center;
@@ -59,13 +59,13 @@ input {
 }
 
 /* welcome page */
-.Welcome {
+.welcome {
   padding: 30px;
   text-align: center;
   margin-top: 40px;
   color: #7cc5d9;
 }
-.Welcome :is(h2, p, img) {
+.welcome :is(h2, p, img) {
   margin-bottom: 20px;
 }
 

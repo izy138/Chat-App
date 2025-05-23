@@ -19,7 +19,7 @@ export default function NavBar() {
     }
 
     return (
-        <nav className='NavBar'>
+        <nav className='navbar'>
             <h1>Izy Chat</h1>
             {user ? (
                 <button className= "sign-out" onClick={signOut}>

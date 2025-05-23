@@ -13,7 +13,7 @@ export default function Welcome(){
     };
 
     return (
-        <main className= "Welcome">
+        <main className= "welcome">
             <h2>Welcome to Chat</h2>
             <h1>Izy138 Chat</h1>
             <p>Sign in with google to chat</p>
