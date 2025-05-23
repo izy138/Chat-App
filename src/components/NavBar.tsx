@@ -2,7 +2,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 
 import { auth } from "../firebase";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { GoogleSignInButton } from "./google-button"; 
+import { GoogleSignInButton } from "./GoogleButton"; 
 
 
 export default function NavBar() {
@@ -19,7 +19,7 @@ export default function NavBar() {
     }
 
     return (
-        <nav className='nav-bar'>
+        <nav className='NavBar'>
             <h1>Izy Chat</h1>
             {user ? (
                 <button className= "sign-out" onClick={signOut}>

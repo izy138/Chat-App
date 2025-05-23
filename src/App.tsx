@@ -1,7 +1,7 @@
 // import "./App.css";
 import { auth } from "./firebase";
-import Welcome from "./components/welcome";
-import NavBar from "./components/nav-bar";
+import Welcome from "./components/Welcome";
+import NavBar from "./components/NavBar";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 
@@ -11,8 +11,9 @@ export default function App(){
 
   return (
     <div className= "App">
-      <NavBar/>;
-      <Welcome/>;
+      <NavBar/>
+      {!user ? <Welcome /> : <div> show chat</div>}
+      {/* <Welcome/>; */}
       </div>
   );
 }

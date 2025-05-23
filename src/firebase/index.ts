@@ -19,4 +19,4 @@ const firebaseConfig = {
   export const db = getFirestore(app);
   
   
-//   export {app};
+  export {app};
