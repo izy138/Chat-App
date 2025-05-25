@@ -1,5 +1,5 @@
 // import 'src/App.css';
-import {auth} from "../firebase";
+import {auth} from "../firebase/firebase";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 // import GoogleSignInButton from "../components/google-button";
 import { GoogleSignInButton } from "./GoogleButton"; // ✅ Curly braces = named import
